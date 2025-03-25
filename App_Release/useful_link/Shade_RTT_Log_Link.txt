@@ -1,0 +1,1 @@
+G:\My Drive\003-TestComplete\TestComplete_RYSE\testsuite\android\ExternalHardwareTest\RTT_Log

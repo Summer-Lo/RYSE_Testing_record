@@ -1,0 +1,12 @@
+*** Make sure checkout to the latest commit first ***
+
+
+1. change target framework from .NET Framework 4.6.2 to 4.7.2
+- Latest version of phidget may not support by 4.6.2
+
+2. Uncheck the signing in project properties:
+https://stackoverflow.com/questions/22946399/signtool-error-no-certificates-were-found-that-met-all-given-criteria-with-a-wi
+
+3. Shutdown logi lamparray service
+- Logitech LampArray Service
+- LampArray Translation Service

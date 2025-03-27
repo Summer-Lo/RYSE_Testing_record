@@ -1,0 +1,23 @@
+1. Download nrf(hex) and FW (bin)
+
+installation:
+1. power plug into bridge
+2. router connect pc and bridge
+3. connect cli
+
+ip config:
+PC ethernet: 
+192.168.8.100
+255.255.255.0
+
+### Need setup a provisioning server via mac
+
+Step 1: Serial Connect
+
+Step 2: Connect bridge in test jig
+
+Step 3: Set WiFi
+
+Step 4: Wait for "nrf" "MT76" "Login" "Provisioning check" Complete
+
+Step 5: wait for running all test

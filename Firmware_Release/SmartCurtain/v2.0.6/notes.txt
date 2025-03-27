@@ -1,0 +1,68 @@
+# 25-03-2025 Run smartcurtain_factory_testing via curtain production test jigs
+All passed except get encoder version
+```
+14:03:45  -> [GET_VERSIONS] Requesting MSP FW Version ...
+14:03:45  -> [SERIAL] Sending CLI CMD = encoder_fw_v
+14:03:46  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ 
+14:03:46  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ enco
+14:03:46  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encod
+14:03:46  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encode
+14:03:47  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw
+14:03:47  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+14:03:48  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+14:03:49  -> [GET_VERSIONS] Expected MSP Version = v2.3.1, Reported MSP Version = 
+14:03:49  -> [GET_VERSIONS] Retry requesting MSP Version, attempt = 1, max_attempt = 10
+14:03:49  -> [GET_VERSIONS] Requesting MSP FW Version ...
+14:03:49  -> [SERIAL] Sending CLI CMD = encoder_fw_v
+14:03:50  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ 
+14:03:50  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ enc
+14:03:51  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ encoder_fw
+14:03:51  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ encoder_fw_
+14:03:51  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ encoder_fw_v
+14:03:51  -> [SERIAL] Job = GET_VERSIONS_TEST, RX_backup = 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+uart_cli:~$ encoder_fw_v
+RESULT: encoder fw: v2.0.1
+
+uart_cli:~$ 
+14:03:53  -> [GET_VERSIONS] Expected MSP Version = v2.3.1, Reported MSP Version = 
+```
+- The "encoder_fw_v" cli command failed. It always gets the default version (v2.0.1)

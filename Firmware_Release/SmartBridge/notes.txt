@@ -6,7 +6,7 @@ installation:
 3. connect cli
 
 ip config:
-PC ethernet: 
+PC ethernet: (for window, recommend to use WIFI "RYSE_Manufacturer" with pw "3blindmice")
 192.168.8.100
 255.255.255.0
 

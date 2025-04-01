@@ -1,0 +1,5 @@
+Important:
+
+MUST ERASE CHIP BY NRF PROGRAMMER FIRST!!
+
+make sure the chip is empty

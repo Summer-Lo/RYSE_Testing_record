@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Test result folder
+AX_Account/
+BX_Bridge/
+CS_CloudSyn/
+CX_Curtain/
+CB_CurtainBLE/
+GX_Group/
+MX_Menu/
+OT_OTA/
+RX_Routine/
+SX_Shade/

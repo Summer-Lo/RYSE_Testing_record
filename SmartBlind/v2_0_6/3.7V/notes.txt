@@ -1,0 +1,12 @@
+Testing SmartBlind stability with different speed
+- Top and bottom
+	1. 100 speed with 80 cycles		[top_bottom_80_cycles_100_speed.csv]
+	2. 80 speed with 80 cycles		[top_bottom_80_cycles_80_speed.csv]
+	3. 50 speed with 80 cycles		[top_bottom_80_cycles_50_speed.csv]	---	FAILED (pulse counter failed and kept shifting)
+	4. 70 speed with 80 cycles		[top_bottom_80_cycles_70_speed.csv]	---	Repo start goes wrong but not often (79th iteration the motor and gear disengaged, is fine)
+
+- 100, 80, 50, 20, 0 position
+	1. 100 speed with 20 cycles
+	2. 80 speed with 20 cycles
+	3. 50 speed with 20 cycles
+	4. 30 speed with 20 cycles

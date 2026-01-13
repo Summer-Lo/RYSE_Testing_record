@@ -1,0 +1,1352 @@
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: started, version 2.86 cachesize 150
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: DNS service limited to local subnets
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-cryptohash no-DNSSEC no-ID loop-detect inotify dumpfile
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: UBus support enabled: connected to system bus
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sat Oct  4 11:19:21 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: read /etc/hosts - 5 addresses
+Sat Oct  4 11:19:21 2025 daemon.info dnsmasq[1]: read /tmp/hosts/dhcp.cfg01411c - 0 addresses
+Sat Oct  4 11:19:28 2025 daemon.notice wpa_supplicant[1391]: Successfully initialized wpa_supplicant
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'loopback' is enabled
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'loopback' is setting up now
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'loopback' is now up
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Network device 'lo' link is up
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'loopback' has link connectivity
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sat Oct  4 11:19:33 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sat Oct  4 11:19:34 2025 daemon.notice netifd: wan (1696): udhcpc: started, v1.35.0
+Sat Oct  4 11:19:34 2025 daemon.notice netifd: wan (1696): udhcpc: broadcasting discover
+Sat Oct  4 11:19:34 2025 daemon.notice netifd: wan (1696): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sat Oct  4 11:19:34 2025 daemon.notice netifd: wan (1696): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sat Oct  4 11:19:35 2025 daemon.notice netifd: Interface 'wan' is now up
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sat Oct  4 11:19:35 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Successfully dropped root privileges.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: avahi-daemon 0.8 starting up.
+Sat Oct  4 11:19:37 2025 daemon.warn avahi-daemon[1780]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: No service file found in /etc/avahi/services.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: New relevant interface lo.IPv6 for mDNS.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: New relevant interface lo.IPv4 for mDNS.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Network interface enumeration completed.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Registering new address record for ::1 on lo.*.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Sat Oct  4 11:19:37 2025 daemon.info avahi-daemon[1780]: Registering HINFO record with values 'MIPS'/'LINUX'.
+Sat Oct  4 11:19:38 2025 daemon.info avahi-autoipd(eth0)[1825]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sat Oct  4 11:19:38 2025 daemon.info avahi-autoipd(eth0)[1825]: Successfully called chroot().
+Sat Oct  4 11:19:38 2025 daemon.info avahi-autoipd(eth0)[1825]: Successfully dropped root privileges.
+Sat Oct  4 11:19:38 2025 daemon.info avahi-autoipd(eth0)[1825]: Starting with address 169.254.9.203
+Sat Oct  4 11:19:38 2025 daemon.info avahi-autoipd(eth0)[1825]: Routable address already assigned, sleeping.
+Sat Oct  4 11:19:38 2025 daemon.info avahi-daemon[1780]: Server startup complete. Host name is RYSE-SmartBridge-08B9.local. Local service cookie is 2845641856.
+Sat Oct  4 11:19:42 2025 daemon.notice procd: /etc/rc.d/S96led: setting up led WAN
+Sat Oct  4 11:19:42 2025 daemon.notice procd: /etc/rc.d/S96led: setting up led INET
+Sat Oct  4 11:19:43 2025 daemon.err admin[1903]: 854: failed to open /sys/class/gpio/gpio497/value
+Sat Oct  4 11:19:43 2025 daemon.notice procd: /etc/rc.d/S99axiscfg: net.ipv4.ping_group_range = 0 1
+Sat Oct  4 11:19:44 2025 daemon.notice procd: /etc/rc.d/S99axiscfg: Using gpio pin 499.
+Sun Oct  5 19:30:01 2025 daemon.notice procd: /etc/rc.d/S99axiscfg: Using gpio pin 499.
+Sun Oct  5 19:30:01 2025 daemon.info procd: - init complete -
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 5315: admin started
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 2058: Remove the saved WiFi SSIDs that are out of the list
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 897: local db not found
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 1007: restore db from flash to mem
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 965: db_version: 0.9.1
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 1021: clear the backup storage
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 1031: copying provision data to the backup storage
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 785: db operation res: 0
+Sun Oct  5 19:30:07 2025 daemon.err admin[1903]: 786: initial data inserted to the db
+Sun Oct  5 19:30:08 2025 daemon.err admin[1903]: 5431: Synchronize DB gears with bnrf
+Sun Oct  5 19:30:08 2025 daemon.err admin[1903]: 4056: restarting uhttpd API service
+Sun Oct  5 19:30:12 2025 daemon.err admin[1903]: 3972: starting homekit service
+Sun Oct  5 19:30:14 2025 daemon.err admin[1903]: 4128: opening database
+Sun Oct  5 19:30:14 2025 daemon.err admin[1903]: 3953: starting nrf-interface service
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 3527: nrfi started
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 3573: requesting version from bridge-nrf
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 3074: [19:30:15.274] ACK
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 2882: REPORT_NRF_FW_VERSION: 4.2.2
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 3261: [19:30:15.294] sending packet to bridge-nrf: F5.02.02.02.04.
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 3074: [19:30:15.300] ACK
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 2559: REPORT_PROVISIONED_GEARS:  02 09 03 c4 2e 58 4b 88 e9 4a 6b b9 e4 41 f4 81 b1 88 54 49 fa
+Sun Oct  5 19:30:15 2025 daemon.err nrfi[2407]: 2560: Start SYNC process
+Sun Oct  5 19:30:16 2025 daemon.err nrfi[2407]: 3482: SYNC: Send to bnrf >>>>>>>>>> : F5.08.01.06.C4.2E.58.4B.88.E9.0D.
+Sun Oct  5 19:30:16 2025 daemon.err nrfi[2407]: 3074: [19:30:16.093] ACK
+Sun Oct  5 19:30:17 2025 daemon.err admin[1903]: 3931: starting mqtt-client service
+Sun Oct  5 19:30:17 2025 daemon.err nrfi[2407]: 3482: SYNC: Send to bnrf >>>>>>>>>> : F5.08.01.06.4A.6B.B9.E4.41.F4.8E.
+Sun Oct  5 19:30:17 2025 daemon.err nrfi[2407]: 3074: [19:30:17.319] ACK
+Sun Oct  5 19:30:17 2025 daemon.err homekit[2360]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 19:30:17 2025 daemon.err homekit[2360]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 19:30:17 2025 daemon.err homekit[2360]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 19:30:17 2025 daemon.err mqttc[2453]: 2952:mqtt started
+Sun Oct  5 19:30:18 2025 daemon.err nrfi[2407]: 3482: SYNC: Send to bnrf >>>>>>>>>> : F5.08.01.06.81.B1.88.54.49.FA.58.
+Sun Oct  5 19:30:18 2025 daemon.err nrfi[2407]: 3074: [19:30:18.553] ACK
+Sun Oct  5 19:30:19 2025 daemon.err mqttc[2453]: 2864: version registered: 4.3.0
+Sun Oct  5 19:30:20 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_fw_version": "4.3.0", "dvc_timezone2": { "dvc_tz_city": "Toronto,_Ontario,_Canada", "dvc_tz_version": "2025b", "dvc_tz_posix": "EST+5EDT,M3.2.0,M11.1.0", "dvc_latitude": 43.6, "dvc_longitude": -79.4 }, "local_security_enable": false, "dvc_hw_version": "0101.2334.0106", "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "dvc_name": "RYSE SmartBridge", "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "dvc_mac": "d0:16:f0:20:08:b9", "gears": { } } } }
+Sun Oct  5 19:30:20 2025 daemon.err mqttc[2453]: 1421:schedule:[ ]
+Sun Oct  5 19:30:21 2025 daemon.err mqttc[2453]: 2123:shadow_desired:8
+Sun Oct  5 19:30:24 2025 daemon.err admin[1903]: 3538: CMD: /root/sunriseset 43.6 -79.4 ==> output: 07:20 18:50
+Sun Oct  5 19:30:46 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:30:46 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:31:16 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:31:16 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:31:16 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 96
+Sun Oct  5 19:31:16 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 19:31:18 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "power_type": 2, "power_level": 96 } } } } }
+Sun Oct  5 19:31:18 2025 daemon.err nrfi[2407]: 1192: REPORT_GEAR_NAME: fa495488b181 - Alarm
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1252: gear name updated
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1281: REPORT_GEAR_FW_VERSION: fa495488b181 - 5.0.2
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1341: gear firmware version updated
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1370: REPORT_GEAR_HW_VERSION: fa495488b181 - 9.9.90
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1430: gear hardware version updated
+Sun Oct  5 19:31:19 2025 daemon.err nrfi[2407]: 1697: REPORT_GEAR_SER_NUMBER: fa495488b181 - 99999999999999
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 1754: gear serial number updated
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 1844: REPORT_GEAR_SPEED: fa495488b181 - 80
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 1865: gear speed updated
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 1942: REPORT_GEAR_TYPE: fa495488b181 - 2
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 1964: gear type updated
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 3013: REPORT_OBSTACLE_DETECTION: fa495488b181 - 1
+Sun Oct  5 19:31:20 2025 daemon.err nrfi[2407]: 3047: gear obstacle_detection updated
+Sun Oct  5 19:31:21 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "fw_version": "5.0.2", "hw_version": "9.9.90", "name": "Alarm", "serial_number": "99999999999999", "speed": 80, "gear_type": 2 } } } } }
+Sun Oct  5 19:31:22 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "obstacle_detection": 1 } } } } }
+Sun Oct  5 19:31:33 2025 daemon.err mqttc[2453]: 1421:schedule:[ ]
+Sun Oct  5 19:31:34 2025 daemon.err mqttc[2453]: 2123:shadow_desired:8
+Sun Oct  5 19:31:35 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:31:35 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:32:32 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:32:32 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:32:47 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:32:47 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:34:34 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:34:34 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:34:49 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:34:49 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:35:06 2025 daemon.err mqttc[2453]: 1775:sql:UPDATE gears SET update_gear=? WHERE id=?;:id:fa495488b181:newver:N/A:newname:N/A:speed:-99:gear_rod:-99:edge_title:-99:window_info:N/A:obstacle_detection:-99:ret:101
+Sun Oct  5 19:35:06 2025 daemon.err mqttc[2453]: 2092:sql:UPDATE gears SET pos_target=20,update_gear=128 WHERE id='fa495488b181';:ret:0
+Sun Oct  5 19:35:07 2025 daemon.err mqttc[2453]: 2123:shadow_desired:16
+Sun Oct  5 19:35:07 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 19:35:07 2025 daemon.err nrfi[2407]: 3074: [19:35:07.398] ACK
+Sun Oct  5 19:35:07 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 99
+Sun Oct  5 19:35:07 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:08 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 85
+Sun Oct  5 19:35:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:08 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 99, "position_state": 1 } } } } }
+Sun Oct  5 19:35:09 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 67
+Sun Oct  5 19:35:09 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:10 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 67, "position_state": 1 } } } } }
+Sun Oct  5 19:35:10 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 49
+Sun Oct  5 19:35:10 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 31
+Sun Oct  5 19:35:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:12 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 49, "position_state": 1 } } } } }
+Sun Oct  5 19:35:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 19:35:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:13 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 19:35:46 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 19
+Sun Oct  5 19:35:46 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:35:47 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 19, "position_state": 0 } } } } }
+Sun Oct  5 19:38:09 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 21
+Sun Oct  5 19:38:09 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:09 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 19:38:09 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 19:38:10 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 21, "position_state": 2 } } } } }
+Sun Oct  5 19:38:10 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 38
+Sun Oct  5 19:38:10 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 56
+Sun Oct  5 19:38:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:12 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 38, "position_state": 2 } } } } }
+Sun Oct  5 19:38:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 73
+Sun Oct  5 19:38:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:13 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 73, "position_state": 2 } } } } }
+Sun Oct  5 19:38:13 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 91
+Sun Oct  5 19:38:13 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:14 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 19:38:14 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 19:38:15 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 19:39:36 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:39:36 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:39:51 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:39:51 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: wan (1696): udhcpc: received SIGTERM
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: wan (1696): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: wan (1696): udhcpc: sending release
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: wan (1696): udhcpc: entering released state
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: wan (1696): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-autoipd(eth0)[1825]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 19:45:08 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 19:45:08 2025 daemon.err avahi-autoipd(eth0)[1825]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:45:08 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:45:08 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:45:08 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 19:45:08 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:45:08 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 19:45:08 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 19:45:09 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:45:10 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:45:10 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:45:10 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:45:10 2025 daemon.notice netifd: wan (3007): udhcpc: started, v1.35.0
+Sun Oct  5 19:45:11 2025 daemon.notice netifd: wan (3007): udhcpc: broadcasting discover
+Sun Oct  5 19:45:11 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 19:45:11 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:45:11 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:45:11 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:45:11 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 19:45:11 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:45:11 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 19:45:12 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 19:45:12 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:45:13 2025 daemon.info avahi-autoipd(eth0)[3182]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:45:13 2025 daemon.info avahi-autoipd(eth0)[3182]: Successfully called chroot().
+Sun Oct  5 19:45:13 2025 daemon.info avahi-autoipd(eth0)[3182]: Successfully dropped root privileges.
+Sun Oct  5 19:45:13 2025 daemon.info avahi-autoipd(eth0)[3182]: Starting with address 169.254.9.203
+Sun Oct  5 19:45:13 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 19:45:13 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 19:45:13 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:45:13 2025 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Sun Oct  5 19:45:14 2025 daemon.notice netifd: wan (3007): udhcpc: broadcasting discover
+Sun Oct  5 19:45:14 2025 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->ENABLED
+Sun Oct  5 19:45:14 2025 daemon.notice hostapd: wlan0: AP-ENABLED
+Sun Oct  5 19:45:15 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::d216:f0ff:fe20:8b8.
+Sun Oct  5 19:45:15 2025 daemon.info avahi-daemon[1780]: New relevant interface wlan0.IPv6 for mDNS.
+Sun Oct  5 19:45:15 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b8 on wlan0.*.
+Sun Oct  5 19:45:15 2025 daemon.notice netifd: radio0 (2966): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 19:45:16 2025 daemon.info procd: Instance homekit::instance1 pid 2360 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 19:45:17 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:45:17 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:45:17 2025 daemon.notice netifd: wan (3007): udhcpc: broadcasting discover
+Sun Oct  5 19:45:17 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:45:17 2025 daemon.notice netifd: wan (3007): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:45:17 2025 daemon.notice netifd: wan (3007): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:45:17 2025 daemon.info avahi-autoipd(eth0)[3182]: A routable address has been configured.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 19:45:17 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:45:17 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 19:45:17 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 19:45:18 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:45:18 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 19:45:20 2025 daemon.err homekit[3238]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 19:45:20 2025 daemon.err homekit[3238]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 19:45:20 2025 daemon.err homekit[3238]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 19:45:20 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:45:22 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 19:45:25 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: wan (3007): udhcpc: received SIGTERM
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: wan (3007): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: wan (3007): udhcpc: sending release
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: wan (3007): udhcpc: entering released state
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: wan (3007): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-autoipd(eth0)[3182]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 19:46:40 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 19:46:40 2025 daemon.err avahi-autoipd(eth0)[3182]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 19:46:40 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:46:40 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:46:41 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 19:46:41 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:46:41 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 19:46:41 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 19:46:41 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:46:42 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:46:42 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:46:42 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:46:42 2025 daemon.notice netifd: wan (3525): udhcpc: started, v1.35.0
+Sun Oct  5 19:46:43 2025 daemon.notice netifd: wan (3525): udhcpc: broadcasting discover
+Sun Oct  5 19:46:43 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 19:46:43 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:46:43 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:46:43 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 19:46:43 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 19:46:44 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:46:44 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 19:46:44 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:46:44 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:46:44 2025 daemon.info avahi-autoipd(eth0)[3624]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:46:44 2025 daemon.info avahi-autoipd(eth0)[3624]: Successfully called chroot().
+Sun Oct  5 19:46:44 2025 daemon.info avahi-autoipd(eth0)[3624]: Successfully dropped root privileges.
+Sun Oct  5 19:46:44 2025 daemon.info avahi-autoipd(eth0)[3624]: Starting with address 169.254.9.203
+Sun Oct  5 19:46:44 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 19:46:44 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 19:46:44 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:46:45 2025 daemon.notice netifd: radio0 (3463): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 19:46:46 2025 daemon.notice netifd: wan (3525): udhcpc: broadcasting discover
+Sun Oct  5 19:46:47 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:46:48 2025 daemon.info procd: Instance homekit::instance1 pid 3238 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 19:46:49 2025 daemon.notice netifd: wan (3525): udhcpc: broadcasting discover
+Sun Oct  5 19:46:49 2025 daemon.notice netifd: wan (3525): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:46:49 2025 daemon.notice netifd: wan (3525): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:46:49 2025 daemon.info avahi-autoipd(eth0)[3624]: A routable address has been configured.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 19:46:49 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:46:49 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 19:46:49 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 19:46:49 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:46:49 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 19:46:50 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:46:50 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:46:50 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:46:50 2025 daemon.err admin[1903]: ip: RTNETLINK answers: File exists
+Sun Oct  5 19:46:52 2025 daemon.err homekit[3700]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 19:46:52 2025 daemon.err homekit[3700]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 19:46:52 2025 daemon.err homekit[3700]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 19:46:52 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:46:53 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 19:46:55 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: wan (3525): udhcpc: received SIGTERM
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: wan (3525): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: wan (3525): udhcpc: sending release
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: wan (3525): udhcpc: entering released state
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: wan (3525): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-autoipd(eth0)[3624]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 19:48:14 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 19:48:14 2025 daemon.err avahi-autoipd(eth0)[3624]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 19:48:14 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:48:14 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:48:14 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 19:48:14 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:48:14 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 19:48:14 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 19:48:15 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:48:16 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:48:16 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:48:16 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:48:16 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 19:48:16 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:48:16 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:48:17 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 19:48:17 2025 daemon.notice netifd: wan (4043): udhcpc: started, v1.35.0
+Sun Oct  5 19:48:17 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:48:17 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:48:17 2025 daemon.notice netifd: wan (4043): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:48:17 2025 daemon.notice netifd: wan (4043): udhcpc: broadcasting discover
+Sun Oct  5 19:48:17 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 19:48:17 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: wan (4043): udhcpc: received SIGTERM
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: wan (4043): udhcpc: entering released state
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(eth0)[4094]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(eth0)[4094]: Successfully called chroot().
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(eth0)[4094]: Successfully dropped root privileges.
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(eth0)[4094]: Starting with address 169.254.9.203
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: wan (4043): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:48:18 2025 daemon.err avahi-autoipd(eth0)[4094]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:48:18 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:48:18 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:48:18 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 19:48:18 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:48:18 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(wlan0)[4179]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(wlan0)[4179]: Successfully called chroot().
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(wlan0)[4179]: Successfully dropped root privileges.
+Sun Oct  5 19:48:18 2025 daemon.info avahi-autoipd(wlan0)[4179]: Starting with address 169.254.9.197
+Sun Oct  5 19:48:19 2025 daemon.notice netifd: radio0 (3903): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 19:48:19 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 19:48:19 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:48:19 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:48:19 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:48:19 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:48:20 2025 daemon.notice netifd: wan (4253): udhcpc: started, v1.35.0
+Sun Oct  5 19:48:20 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 19:48:20 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 19:48:20 2025 daemon.notice netifd: wan (4253): udhcpc: broadcasting discover
+Sun Oct  5 19:48:20 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:48:20 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:48:20 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:48:20 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:48:20 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 19:48:20 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: wan (4253): udhcpc: received SIGTERM
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: wan (4253): udhcpc: entering released state
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: wan (4253): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:48:21 2025 daemon.err admin[1903]: udhcpc: read error: Network is down, reopening socket
+Sun Oct  5 19:48:21 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 19:48:21 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:48:21 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:48:21 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:48:22 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:48:22 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:48:22 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:48:23 2025 daemon.notice netifd: wan (4430): udhcpc: started, v1.35.0
+Sun Oct  5 19:48:23 2025 daemon.notice netifd: wan (4430): udhcpc: broadcasting discover
+Sun Oct  5 19:48:23 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 19:48:23 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:48:23 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:48:23 2025 daemon.info avahi-autoipd(wlan0)[4179]: Got SIGTERM, quitting.
+Sun Oct  5 19:48:23 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 19:48:24 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:48:24 2025 daemon.info avahi-autoipd(eth0)[4496]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:48:24 2025 daemon.info avahi-autoipd(eth0)[4496]: Successfully called chroot().
+Sun Oct  5 19:48:24 2025 daemon.info avahi-autoipd(eth0)[4496]: Successfully dropped root privileges.
+Sun Oct  5 19:48:24 2025 daemon.info avahi-autoipd(eth0)[4496]: Starting with address 169.254.9.203
+Sun Oct  5 19:48:24 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:48:24 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 19:48:24 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:48:24 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:48:24 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 19:48:24 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 19:48:24 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:48:26 2025 daemon.notice netifd: wan (4430): udhcpc: broadcasting discover
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:48:27 2025 daemon.info avahi-autoipd(eth0)[4496]: A routable address has been configured.
+Sun Oct  5 19:48:27 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:48:27 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 19:48:27 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: ip: RTNETLINK answers: File exists
+Sun Oct  5 19:48:27 2025 daemon.err admin[1903]: route: SIOCADDRT: File exists
+Sun Oct  5 19:48:28 2025 daemon.info procd: Instance homekit::instance1 pid 3700 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 19:48:28 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:48:28 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 19:48:29 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 19:48:29 2025 daemon.notice netifd: wan (4430): udhcpc: broadcasting discover
+Sun Oct  5 19:48:29 2025 daemon.notice netifd: wan (4430): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:48:29 2025 daemon.notice netifd: wan (4430): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:48:30 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:48:30 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:48:30 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 19:48:30 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:48:30 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 19:48:30 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 19:48:30 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:48:32 2025 daemon.err homekit[4560]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 19:48:32 2025 daemon.err homekit[4560]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 19:48:32 2025 daemon.err homekit[4560]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 19:48:33 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: wan (4430): udhcpc: received SIGTERM
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: wan (4430): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: wan (4430): udhcpc: sending release
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: wan (4430): udhcpc: entering released state
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: wan (4430): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-autoipd(eth0)[4496]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 19:49:34 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 19:49:34 2025 daemon.err avahi-autoipd(eth0)[4496]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 19:49:34 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 19:49:34 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 19:49:35 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 19:49:35 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:49:35 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 19:49:35 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 19:49:35 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:49:37 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 19:49:37 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 19:49:37 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 19:49:37 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 19:49:37 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 19:49:37 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 19:49:37 2025 daemon.notice netifd: wan (4855): udhcpc: started, v1.35.0
+Sun Oct  5 19:49:37 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 19:49:37 2025 daemon.notice netifd: wan (4855): udhcpc: broadcasting discover
+Sun Oct  5 19:49:38 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:49:38 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:49:38 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 19:49:38 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:49:38 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 19:49:38 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 19:49:38 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 19:49:38 2025 daemon.info avahi-autoipd(eth0)[4941]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 19:49:38 2025 daemon.info avahi-autoipd(eth0)[4941]: Successfully called chroot().
+Sun Oct  5 19:49:38 2025 daemon.info avahi-autoipd(eth0)[4941]: Successfully dropped root privileges.
+Sun Oct  5 19:49:38 2025 daemon.info avahi-autoipd(eth0)[4941]: Starting with address 169.254.9.203
+Sun Oct  5 19:49:39 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 19:49:39 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 19:49:39 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:49:40 2025 daemon.notice netifd: radio0 (4769): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 19:49:40 2025 daemon.notice netifd: wan (4855): udhcpc: broadcasting discover
+Sun Oct  5 19:49:42 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 19:49:42 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:49:42 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:49:42 2025 daemon.info avahi-autoipd(eth0)[4941]: A routable address has been configured.
+Sun Oct  5 19:49:42 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 19:49:42 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 19:49:42 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 19:49:43 2025 daemon.info procd: Instance homekit::instance1 pid 4560 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 19:49:43 2025 daemon.notice netifd: wan (4855): udhcpc: broadcasting discover
+Sun Oct  5 19:49:43 2025 daemon.notice netifd: wan (4855): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 19:49:43 2025 daemon.notice netifd: wan (4855): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 19:49:43 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 19:49:43 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 19:49:43 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 19:49:43 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 19:49:43 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 19:49:43 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 19:49:43 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:49:44 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 19:49:46 2025 daemon.err homekit[5022]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 19:49:46 2025 daemon.err homekit[5022]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 19:49:46 2025 daemon.err homekit[5022]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 19:49:46 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 19:49:48 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 19:49:50 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 19:49:53 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:49:53 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:59:39 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 19:59:39 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 19:59:54 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 19:59:54 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:05:02 2025 daemon.err mqttc[2453]: 1775:sql:UPDATE gears SET update_gear=? WHERE id=?;:id:fa495488b181:newver:N/A:newname:N/A:speed:-99:gear_rod:-99:edge_title:-99:window_info:N/A:obstacle_detection:-99:ret:101
+Sun Oct  5 20:05:02 2025 daemon.err mqttc[2453]: 2092:sql:UPDATE gears SET pos_target=20,update_gear=128 WHERE id='fa495488b181';:ret:0
+Sun Oct  5 20:05:03 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 20:05:03 2025 daemon.err nrfi[2407]: 3074: [20:05:03.142] ACK
+Sun Oct  5 20:05:03 2025 daemon.err mqttc[2453]: 2123:shadow_desired:16
+Sun Oct  5 20:05:03 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 99
+Sun Oct  5 20:05:03 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:04 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 83
+Sun Oct  5 20:05:04 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:04 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 99, "position_state": 1 } } } } }
+Sun Oct  5 20:05:05 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 65
+Sun Oct  5 20:05:05 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:06 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 65, "position_state": 1 } } } } }
+Sun Oct  5 20:05:06 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 47
+Sun Oct  5 20:05:06 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:07 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 29
+Sun Oct  5 20:05:07 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:07 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 47, "position_state": 1 } } } } }
+Sun Oct  5 20:05:08 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 20:05:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:09 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 20:05:43 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 21
+Sun Oct  5 20:05:43 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:43 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 20:05:43 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 20:05:44 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 37
+Sun Oct  5 20:05:44 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:44 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 21, "position_state": 2 } } } } }
+Sun Oct  5 20:05:45 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 55
+Sun Oct  5 20:05:45 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:45 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 94
+Sun Oct  5 20:05:45 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 20:05:45 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 55, "position_state": 2 } } } } }
+Sun Oct  5 20:05:46 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 73
+Sun Oct  5 20:05:46 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:47 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 91
+Sun Oct  5 20:05:47 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:47 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 73, "position_state": 2, "power_type": 2, "power_level": 94 } } } } }
+Sun Oct  5 20:05:48 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 20:05:48 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:05:49 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 20:09:42 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:09:42 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:09:57 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 20:09:57 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:19:44 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:19:44 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:19:59 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 20:19:59 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:29:45 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:29:45 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:30:00 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 20:30:00 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:35:03 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 20:35:03 2025 daemon.err nrfi[2407]: 3074: [20:35:03.105] ACK
+Sun Oct  5 20:35:03 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:04 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 96
+Sun Oct  5 20:35:04 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 20:35:04 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 1 } } } } }
+Sun Oct  5 20:35:04 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 89
+Sun Oct  5 20:35:04 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:05 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 72
+Sun Oct  5 20:35:05 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:05 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 89, "position_state": 1, "power_type": 2, "power_level": 96 } } } } }
+Sun Oct  5 20:35:06 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 54
+Sun Oct  5 20:35:06 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:07 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 54, "position_state": 1 } } } } }
+Sun Oct  5 20:35:07 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 36
+Sun Oct  5 20:35:07 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:08 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 20:35:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:08 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 20:35:38 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 21
+Sun Oct  5 20:35:38 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:38 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 20:35:38 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 20:35:39 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 21, "position_state": 2 } } } } }
+Sun Oct  5 20:35:39 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 37
+Sun Oct  5 20:35:39 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:40 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 55
+Sun Oct  5 20:35:40 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:40 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 55, "position_state": 2 } } } } }
+Sun Oct  5 20:35:41 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 73
+Sun Oct  5 20:35:41 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:42 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 91
+Sun Oct  5 20:35:42 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:42 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 73, "position_state": 2 } } } } }
+Sun Oct  5 20:35:43 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 20:35:43 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 20:35:43 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: wan (4855): udhcpc: received SIGTERM
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: wan (4855): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: wan (4855): udhcpc: sending release
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: wan (4855): udhcpc: entering released state
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: wan (4855): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-autoipd(eth0)[4941]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 20:36:11 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 20:36:11 2025 daemon.err avahi-autoipd(eth0)[4941]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 20:36:11 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:36:11 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 20:36:11 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 20:36:11 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:36:11 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 20:36:11 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 20:36:11 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:36:13 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 20:36:13 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 20:36:13 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 20:36:14 2025 daemon.notice netifd: wan (5404): udhcpc: started, v1.35.0
+Sun Oct  5 20:36:14 2025 daemon.notice netifd: wan (5404): udhcpc: broadcasting discover
+Sun Oct  5 20:36:14 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 20:36:14 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 20:36:14 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:36:14 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 20:36:14 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 20:36:15 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:36:15 2025 daemon.info avahi-autoipd(eth0)[5476]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 20:36:15 2025 daemon.info avahi-autoipd(eth0)[5476]: Successfully called chroot().
+Sun Oct  5 20:36:15 2025 daemon.info avahi-autoipd(eth0)[5476]: Successfully dropped root privileges.
+Sun Oct  5 20:36:15 2025 daemon.info avahi-autoipd(eth0)[5476]: Starting with address 169.254.9.203
+Sun Oct  5 20:36:15 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:36:15 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 20:36:15 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:36:15 2025 daemon.notice netifd: radio0 (5287): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 20:36:15 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 20:36:15 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 20:36:15 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:36:17 2025 daemon.notice netifd: wan (5404): udhcpc: broadcasting discover
+Sun Oct  5 20:36:18 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:36:18 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:36:18 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:36:18 2025 daemon.info avahi-autoipd(eth0)[5476]: A routable address has been configured.
+Sun Oct  5 20:36:18 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:36:18 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 20:36:18 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 20:36:19 2025 daemon.info procd: Instance homekit::instance1 pid 5022 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 20:36:20 2025 daemon.notice netifd: wan (5404): udhcpc: broadcasting discover
+Sun Oct  5 20:36:20 2025 daemon.notice netifd: wan (5404): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:36:20 2025 daemon.notice netifd: wan (5404): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:36:20 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:36:20 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:36:20 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 20:36:20 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:36:20 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 20:36:20 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 20:36:21 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:36:21 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 20:36:23 2025 daemon.err homekit[5554]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 20:36:23 2025 daemon.err homekit[5554]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 20:36:23 2025 daemon.err homekit[5554]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 20:36:23 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:36:25 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 20:36:25 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 20:39:48 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:39:48 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:40:03 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 20:40:03 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:41:43 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 20:41:43 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: wan (5404): udhcpc: received SIGTERM
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: wan (5404): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: wan (5404): udhcpc: sending release
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: wan (5404): udhcpc: entering released state
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: wan (5404): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 20:41:44 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 20:41:44 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-autoipd(eth0)[5476]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 20:41:44 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 20:41:44 2025 daemon.err avahi-autoipd(eth0)[5476]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 20:41:44 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 20:41:44 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 20:41:44 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 20:41:44 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 20:41:44 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:41:46 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 20:41:46 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 20:41:46 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 20:41:46 2025 daemon.notice netifd: wan (5875): udhcpc: started, v1.35.0
+Sun Oct  5 20:41:46 2025 daemon.notice netifd: wan (5875): udhcpc: broadcasting discover
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 20:41:47 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:41:47 2025 daemon.info avahi-autoipd(eth0)[5943]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 20:41:47 2025 daemon.info avahi-autoipd(eth0)[5943]: Successfully called chroot().
+Sun Oct  5 20:41:47 2025 daemon.info avahi-autoipd(eth0)[5943]: Successfully dropped root privileges.
+Sun Oct  5 20:41:47 2025 daemon.info avahi-autoipd(eth0)[5943]: Starting with address 169.254.9.203
+Sun Oct  5 20:41:48 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:41:48 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 20:41:48 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:41:48 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 20:41:48 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 20:41:48 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:41:49 2025 daemon.notice netifd: wan (5875): udhcpc: broadcasting discover
+Sun Oct  5 20:41:51 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:41:52 2025 daemon.notice netifd: wan (5875): udhcpc: broadcasting discover
+Sun Oct  5 20:41:52 2025 daemon.notice netifd: wan (5875): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:41:52 2025 daemon.notice netifd: wan (5875): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:41:52 2025 daemon.info avahi-autoipd(eth0)[5943]: A routable address has been configured.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 20:41:52 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:41:52 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 20:41:52 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 20:41:52 2025 daemon.info procd: Instance homekit::instance1 pid 5554 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 20:41:52 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:41:52 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 20:41:54 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: wan (5875): udhcpc: received SIGTERM
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: wan (5875): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: wan (5875): udhcpc: sending release
+Sun Oct  5 20:41:54 2025 daemon.notice netifd: wan (5875): udhcpc: entering released state
+Sun Oct  5 20:41:55 2025 daemon.notice netifd: wan (5875): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 20:41:55 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-autoipd(eth0)[5943]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 20:41:55 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 20:41:55 2025 daemon.err avahi-autoipd(eth0)[5943]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 20:41:55 2025 daemon.err admin[1903]: udhcpc: read error: Network is down, reopening socket
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 20:41:55 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:41:55 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 20:41:55 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 20:41:55 2025 daemon.err homekit[6053]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 20:41:55 2025 daemon.err homekit[6053]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 20:41:55 2025 daemon.err homekit[6053]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 20:41:56 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 20:41:56 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 20:41:56 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 20:41:57 2025 daemon.notice netifd: wan (6205): udhcpc: started, v1.35.0
+Sun Oct  5 20:41:57 2025 daemon.notice netifd: wan (6205): udhcpc: broadcasting discover
+Sun Oct  5 20:41:58 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 20:41:58 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:41:58 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 20:41:58 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:42:00 2025 daemon.notice netifd: wan (6205): udhcpc: broadcasting discover
+Sun Oct  5 20:42:00 2025 daemon.err admin[1903]: udhcpc: no lease, failing
+Sun Oct  5 20:42:00 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 20:42:03 2025 daemon.notice netifd: wan (6205): udhcpc: broadcasting discover
+Sun Oct  5 20:42:07 2025 daemon.notice netifd: wan (6205): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:42:07 2025 daemon.notice netifd: wan (6205): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 20:42:07 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:42:07 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 20:42:07 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 20:42:08 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 20:42:11 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:42:12 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: wan (6205): udhcpc: received SIGTERM
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: wan (6205): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: wan (6205): udhcpc: sending release
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: wan (6205): udhcpc: entering released state
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: wan (6205): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 20:44:30 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 20:44:30 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 20:44:30 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 20:44:31 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 20:44:31 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:44:31 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 20:44:31 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 20:44:31 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:44:32 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 20:44:32 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 20:44:32 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 20:44:33 2025 daemon.notice netifd: wan (6483): udhcpc: started, v1.35.0
+Sun Oct  5 20:44:33 2025 daemon.notice netifd: wan (6483): udhcpc: broadcasting discover
+Sun Oct  5 20:44:33 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 20:44:33 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 20:44:33 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:44:33 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 20:44:34 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 20:44:34 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:44:34 2025 daemon.info avahi-autoipd(eth0)[6594]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 20:44:34 2025 daemon.info avahi-autoipd(eth0)[6594]: Successfully called chroot().
+Sun Oct  5 20:44:34 2025 daemon.info avahi-autoipd(eth0)[6594]: Successfully dropped root privileges.
+Sun Oct  5 20:44:34 2025 daemon.info avahi-autoipd(eth0)[6594]: Starting with address 169.254.9.203
+Sun Oct  5 20:44:34 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:44:34 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 20:44:34 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:44:34 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 20:44:34 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 20:44:34 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:44:35 2025 daemon.notice netifd: radio0 (6421): Command failed: ubus call network.wireless notify { "command": 1, "device": "radio0", "interface": "0", "data": { "ifname": "wlan0" } } (Not found)
+Sun Oct  5 20:44:36 2025 daemon.notice netifd: wan (6483): udhcpc: broadcasting discover
+Sun Oct  5 20:44:37 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:44:38 2025 daemon.info procd: Instance homekit::instance1 pid 6053 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 20:44:39 2025 daemon.notice netifd: wan (6483): udhcpc: broadcasting discover
+Sun Oct  5 20:44:39 2025 daemon.notice netifd: wan (6483): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:44:39 2025 daemon.notice netifd: wan (6483): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:44:39 2025 daemon.info avahi-autoipd(eth0)[6594]: A routable address has been configured.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 20:44:39 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:44:39 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 20:44:39 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 20:44:39 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:44:39 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 20:44:40 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:44:40 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:44:40 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:44:40 2025 daemon.err admin[1903]: ip: RTNETLINK answers: File exists
+Sun Oct  5 20:44:42 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:44:42 2025 daemon.err homekit[6663]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 20:44:42 2025 daemon.err homekit[6663]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 20:44:42 2025 daemon.err homekit[6663]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 20:44:43 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "gears": { } } } }
+Sun Oct  5 20:44:45 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: Network device 'eth0' link is down
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: wan (6483): udhcpc: received SIGTERM
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: wan (6483): udhcpc: unicasting a release of 192.168.2.22 to 192.168.2.1
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: wan (6483): udhcpc: sending release
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: wan (6483): udhcpc: entering released state
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: wan (6483): Command failed: ubus call network.interface notify_proto { "action": 0, "link-up": false, "keep": false, "interface": "wan" } (Permission denied)
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: Interface 'wan' is now down
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-autoipd(eth0)[6594]: No longer a routable address configured, restarting probe process.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 192.168.2.22 on eth0.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv4 no longer relevant for mDNS.
+Sun Oct  5 20:48:36 2025 daemon.warn dnsmasq[1]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Sun Oct  5 20:48:36 2025 daemon.err avahi-autoipd(eth0)[6594]: SIOCSIFFLAGS failed: Operation not permitted
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Interface eth0.IPv6 no longer relevant for mDNS.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fdad:7e4f:62a:10::1 on eth0.
+Sun Oct  5 20:48:36 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: Interface 'wan' is disabled
+Sun Oct  5 20:48:36 2025 daemon.notice netifd: Interface 'wan' is enabled
+Sun Oct  5 20:48:36 2025 daemon.err admin[1903]: 5559: ethernet cable is plugged out
+Sun Oct  5 20:48:36 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:48:36 2025 daemon.err admin[1903]: 2472: Ethernet interface is down, enable wifi Radio
+Sun Oct  5 20:48:36 2025 daemon.err admin[1903]: 2489: Enable wifi AP
+Sun Oct  5 20:48:36 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:48:38 2025 daemon.notice netifd: Network device 'eth0' link is up
+Sun Oct  5 20:48:38 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Oct  5 20:48:38 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Oct  5 20:48:38 2025 daemon.notice netifd: wan (6990): udhcpc: started, v1.35.0
+Sun Oct  5 20:48:38 2025 daemon.notice netifd: wan (6990): udhcpc: broadcasting discover
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: 5549: ethernet cable is plugged in
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: 4199: restarting avahi-autoipd service
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: 3982: restarting homekit service
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: Failed to kill daemon: No such file or directory
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: 2455: Ethernet interface is up, Disable wifi interface
+Sun Oct  5 20:48:39 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:48:39 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv6 for mDNS.
+Sun Oct  5 20:48:39 2025 daemon.info avahi-daemon[1780]: Registering new address record for fe80::d216:f0ff:fe20:8b9 on eth0.*.
+Sun Oct  5 20:48:39 2025 daemon.err admin[1903]: 4081: reloading network
+Sun Oct  5 20:48:39 2025 daemon.info avahi-autoipd(eth0)[7064]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Sun Oct  5 20:48:39 2025 daemon.info avahi-autoipd(eth0)[7064]: Successfully called chroot().
+Sun Oct  5 20:48:39 2025 daemon.info avahi-autoipd(eth0)[7064]: Successfully dropped root privileges.
+Sun Oct  5 20:48:39 2025 daemon.info avahi-autoipd(eth0)[7064]: Starting with address 169.254.9.203
+Sun Oct  5 20:48:40 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: 192.168.2.22, new: fe80::d216:f0ff:fe20:8b9
+Sun Oct  5 20:48:40 2025 daemon.err admin[1903]: udhcpc: started, v1.35.0
+Sun Oct  5 20:48:40 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:48:41 2025 daemon.notice netifd: wan (6990): udhcpc: broadcasting discover
+Sun Oct  5 20:48:43 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:48:44 2025 daemon.info procd: Instance homekit::instance1 pid 6663 not stopped on SIGTERM, sending SIGKILL instead
+Sun Oct  5 20:48:44 2025 daemon.notice netifd: wan (6990): udhcpc: broadcasting discover
+Sun Oct  5 20:48:45 2025 daemon.info avahi-autoipd(eth0)[7064]: Callout BIND, address 169.254.9.203 on interface eth0
+Sun Oct  5 20:48:45 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.9.203.
+Sun Oct  5 20:48:45 2025 daemon.info avahi-daemon[1780]: New relevant interface eth0.IPv4 for mDNS.
+Sun Oct  5 20:48:45 2025 daemon.info avahi-daemon[1780]: Registering new address record for 169.254.9.203 on eth0.IPv4.
+Sun Oct  5 20:48:46 2025 daemon.err admin[1903]: udhcpc: broadcasting discover
+Sun Oct  5 20:48:46 2025 daemon.err admin[1903]: udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:48:46 2025 daemon.err admin[1903]: udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:48:46 2025 daemon.info avahi-autoipd(eth0)[7064]: A routable address has been configured.
+Sun Oct  5 20:48:46 2025 daemon.info avahi-autoipd(eth0)[7064]: Callout UNBIND, address 169.254.9.203 on interface eth0
+Sun Oct  5 20:48:46 2025 daemon.info avahi-daemon[1780]: Registering new address record for 192.168.2.22 on eth0.IPv4.
+Sun Oct  5 20:48:46 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for 169.254.9.203 on eth0.
+Sun Oct  5 20:48:46 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv4 with address 169.254.9.203.
+Sun Oct  5 20:48:46 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.2.22.
+Sun Oct  5 20:48:47 2025 daemon.notice netifd: wan (6990): udhcpc: broadcasting select for 192.168.2.22, server 192.168.2.1
+Sun Oct  5 20:48:47 2025 daemon.notice netifd: wan (6990): udhcpc: lease of 192.168.2.22 obtained from 192.168.2.1, lease time 259200
+Sun Oct  5 20:48:47 2025 daemon.info avahi-daemon[1780]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::d216:f0ff:fe20:8b9.
+Sun Oct  5 20:48:47 2025 daemon.info avahi-daemon[1780]: Joining mDNS multicast group on interface eth0.IPv6 with address fdad:7e4f:62a:10::1.
+Sun Oct  5 20:48:47 2025 daemon.info avahi-daemon[1780]: Registering new address record for fdad:7e4f:62a:10::1 on eth0.*.
+Sun Oct  5 20:48:47 2025 daemon.info avahi-daemon[1780]: Withdrawing address record for fe80::d216:f0ff:fe20:8b9 on eth0.
+Sun Oct  5 20:48:47 2025 daemon.notice netifd: Interface 'wan' is now up
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using nameserver 192.168.2.1#53
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using nameserver 207.164.234.129#53
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for test
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for onion
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for localhost
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for local
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for invalid
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for bind
+Sun Oct  5 20:48:47 2025 daemon.info dnsmasq[1]: using only locally-known addresses for lan
+Sun Oct  5 20:48:47 2025 daemon.err homekit[7134]: *** WARNING *** The program 'homekit' uses the Apple Bonjour compatibility layer of Avahi.
+Sun Oct  5 20:48:47 2025 daemon.err homekit[7134]: *** WARNING *** Please fix your application to use the native API of Avahi!
+Sun Oct  5 20:48:47 2025 daemon.err homekit[7134]: *** WARNING *** For more information see <http://0pointer.de/blog/projects/avahi-compat.html>
+Sun Oct  5 20:48:48 2025 daemon.err admin[1903]: 5099: LAN IP address is changed, old: fe80::d216:f0ff:fe20:8b9, new: 192.168.2.22
+Sun Oct  5 20:48:48 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_ip": "fe80::d216:f0ff:fe20:8b9", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:48:50 2025 daemon.notice netifd: Wireless device 'radio0' is now down
+Sun Oct  5 20:48:50 2025 daemon.err mqttc[2453]: 2471: msgReported: { "state": { "reported": { "dvc_online": true, "dvc_app_version": { "lua": "4.2.1", "homekit": "4.2.6", "mqttc": "4.3.0", "nrfi": "4.3.0", "bnrf": "4.2.2" }, "dvc_ip": "192.168.2.22", "dvc_wan_iface": "Ethernet", "gears": { } } } }
+Sun Oct  5 20:49:49 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:49:49 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:50:04 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 20:50:04 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 20:59:51 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 20:59:51 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:00:06 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:00:06 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:07:54 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 21:07:54 2025 daemon.err nrfi[2407]: 3074: [21:07:54.143] ACK
+Sun Oct  5 21:07:54 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 99
+Sun Oct  5 21:07:54 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:07:56 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 84
+Sun Oct  5 21:07:56 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:07:56 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 99, "position_state": 1 } } } } }
+Sun Oct  5 21:07:56 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 67
+Sun Oct  5 21:07:56 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:07:57 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 49
+Sun Oct  5 21:07:57 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:07:57 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 67, "position_state": 1 } } } } }
+Sun Oct  5 21:07:58 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 31
+Sun Oct  5 21:07:58 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:07:59 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 31, "position_state": 1 } } } } }
+Sun Oct  5 21:07:59 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 21:07:59 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:08:00 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 21:09:53 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 21:09:53 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:10:08 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:10:08 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:10:10 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 19
+Sun Oct  5 21:10:10 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:10 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 21:10:10 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 21:10:10 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 19, "position_state": 2 } } } } }
+Sun Oct  5 21:10:11 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 32
+Sun Oct  5 21:10:11 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 50
+Sun Oct  5 21:10:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:12 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 32, "position_state": 2 } } } } }
+Sun Oct  5 21:10:13 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 68
+Sun Oct  5 21:10:13 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:14 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 86
+Sun Oct  5 21:10:14 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:14 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 68, "position_state": 2 } } } } }
+Sun Oct  5 21:10:15 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 21:10:15 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:10:15 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 21:19:55 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 21:19:55 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:20:10 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:20:10 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:29:56 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 21:29:56 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:30:11 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:30:11 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:35:07 2025 daemon.err mqttc[2453]: 1775:sql:UPDATE gears SET update_gear=? WHERE id=?;:id:fa495488b181:newver:N/A:newname:N/A:speed:-99:gear_rod:-99:edge_title:-99:window_info:N/A:obstacle_detection:-99:ret:101
+Sun Oct  5 21:35:07 2025 daemon.err mqttc[2453]: 2092:sql:UPDATE gears SET pos_target=20,update_gear=128 WHERE id='fa495488b181';:ret:0
+Sun Oct  5 21:35:07 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 21:35:07 2025 daemon.err nrfi[2407]: 3074: [21:35:07.811] ACK
+Sun Oct  5 21:35:07 2025 daemon.err mqttc[2453]: 2123:shadow_desired:16
+Sun Oct  5 21:35:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:09 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 88
+Sun Oct  5 21:35:09 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:09 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 1 } } } } }
+Sun Oct  5 21:35:10 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 70
+Sun Oct  5 21:35:10 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:11 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 70, "position_state": 1 } } } } }
+Sun Oct  5 21:35:11 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 52
+Sun Oct  5 21:35:11 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 34
+Sun Oct  5 21:35:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:12 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 34, "position_state": 1 } } } } }
+Sun Oct  5 21:35:13 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 21:35:13 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:14 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 21:35:27 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 19
+Sun Oct  5 21:35:27 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:27 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 21:35:27 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 21:35:27 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 19, "position_state": 2 } } } } }
+Sun Oct  5 21:35:28 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 30
+Sun Oct  5 21:35:28 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:29 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 48
+Sun Oct  5 21:35:29 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:29 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 30, "position_state": 2 } } } } }
+Sun Oct  5 21:35:30 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 66
+Sun Oct  5 21:35:30 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:31 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 84
+Sun Oct  5 21:35:31 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:31 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 66, "position_state": 2 } } } } }
+Sun Oct  5 21:35:32 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 21:35:32 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 21:35:32 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 21:39:59 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 21:39:59 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:40:14 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:40:14 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:50:00 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 21:50:00 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 21:50:15 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 21:50:15 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:00:02 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:00:02 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:00:17 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:00:17 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:05:02 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 22:05:02 2025 daemon.err nrfi[2407]: 3074: [22:05:02.809] ACK
+Sun Oct  5 22:05:03 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:03 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 1 } } } } }
+Sun Oct  5 22:05:04 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 88
+Sun Oct  5 22:05:04 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:05 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 70
+Sun Oct  5 22:05:05 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:05 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 88, "position_state": 1 } } } } }
+Sun Oct  5 22:05:06 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 52
+Sun Oct  5 22:05:06 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:07 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 52, "position_state": 1 } } } } }
+Sun Oct  5 22:05:07 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 35
+Sun Oct  5 22:05:07 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:08 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 22:05:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:05:08 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 22:06:01 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 19
+Sun Oct  5 22:06:01 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:06:02 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 19, "position_state": 0 } } } } }
+Sun Oct  5 22:07:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:08 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 22:07:08 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 22:07:09 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 19, "position_state": 2 } } } } }
+Sun Oct  5 22:07:09 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 33
+Sun Oct  5 22:07:09 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:10 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 51
+Sun Oct  5 22:07:10 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:10 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 33, "position_state": 2 } } } } }
+Sun Oct  5 22:07:11 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 69
+Sun Oct  5 22:07:11 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:12 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 69, "position_state": 2 } } } } }
+Sun Oct  5 22:07:12 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 87
+Sun Oct  5 22:07:12 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:13 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 22:07:13 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:07:13 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 87, "position_state": 2 } } } } }
+Sun Oct  5 22:07:15 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 22:10:04 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:10:04 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:10:19 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:10:19 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:20:05 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:20:05 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:20:20 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:20:20 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:30:07 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:30:07 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:30:22 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:30:22 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:35:02 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 22:35:02 2025 daemon.err nrfi[2407]: 3074: [22:35:02.747] ACK
+Sun Oct  5 22:35:03 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:03 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 97
+Sun Oct  5 22:35:03 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 22:35:04 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 87
+Sun Oct  5 22:35:04 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:04 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 87, "position_state": 1, "power_type": 2, "power_level": 97 } } } } }
+Sun Oct  5 22:35:05 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 69
+Sun Oct  5 22:35:05 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:06 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 51
+Sun Oct  5 22:35:06 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:06 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 69, "position_state": 1 } } } } }
+Sun Oct  5 22:35:07 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 33
+Sun Oct  5 22:35:07 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:07 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 33, "position_state": 1 } } } } }
+Sun Oct  5 22:35:08 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 22:35:08 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:09 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 22:35:45 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:45 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 22:35:45 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 22:35:45 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 94
+Sun Oct  5 22:35:45 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 22:35:46 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 33
+Sun Oct  5 22:35:46 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:46 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 2, "power_type": 2, "power_level": 94 } } } } }
+Sun Oct  5 22:35:47 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 51
+Sun Oct  5 22:35:47 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:48 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 51, "position_state": 2 } } } } }
+Sun Oct  5 22:35:48 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 69
+Sun Oct  5 22:35:48 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:49 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 87
+Sun Oct  5 22:35:49 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:49 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 87, "position_state": 2 } } } } }
+Sun Oct  5 22:35:50 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 100
+Sun Oct  5 22:35:50 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 22:35:51 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 100, "position_state": 0 } } } } }
+Sun Oct  5 22:36:16 2025 daemon.err mqttc[2453]: 1045: get command from cloud through mqtt: sh /root/nrf_hardware_reset.sh
+Sun Oct  5 22:36:17 2025 daemon.err mqttc[2453]: 2319: Event: msgReported: { "logs": [ "[2025-10-05 22:36:17] GATEWAY iDVceO9 4.3.0 INFO COMMANDRESULT Using gpio pin 499.\n" ] }
+Sun Oct  5 22:36:18 2025 daemon.err mqttc[2453]: 2319: Event: msgReported: { "logs": [ "[2025-10-05 22:36:18] GATEWAY iDVceO9 4.3.0 INFO COMMANDRESULT Using gpio pin 499.\n", "[2025-10-05 22:36:18] GATEWAY iDVceO9 4.3.0 INFO COMMANDRESULT __EOC__" ] }
+Sun Oct  5 22:36:39 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:36:39 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:36:54 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:36:54 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:36:55 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 96
+Sun Oct  5 22:36:55 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 22:36:57 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "power_type": 2, "power_level": 96 } } } } }
+Sun Oct  5 22:37:40 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:37:40 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:37:55 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:37:55 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:38:15 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:38:15 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:38:30 2025 daemon.err nrfi[2407]: 1281: REPORT_GEAR_FW_VERSION: fa495488b181 - 5.0.2
+Sun Oct  5 22:38:30 2025 daemon.err nrfi[2407]: 1341: gear firmware version updated
+Sun Oct  5 22:38:30 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "fw_version": "5.0.2" } } } } }
+Sun Oct  5 22:39:43 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:39:43 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:39:58 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:39:58 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:40:18 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:40:18 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:44:45 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:44:45 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:45:00 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:45:00 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:45:21 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:45:21 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:54:47 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 22:54:47 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:55:02 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:55:02 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 22:55:23 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 22:55:23 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 23:04:50 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: e9884b582ec4
+Sun Oct  5 23:04:50 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 23:05:05 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 23:05:05 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 23:05:25 2025 daemon.err nrfi[2407]: 2416: REPORT_GEAR_NOT_FOUND: f441e4b96b4a
+Sun Oct  5 23:05:25 2025 daemon.err nrfi[2407]: 2489: evtMsg: offline report from offline gear
+Sun Oct  5 23:10:19 2025 daemon.err nrfi[2407]: 717: sending packet to bridge-nrf: F5.0A.01.01.01.14.81.B1.88.54.49.FA.68.
+Sun Oct  5 23:10:19 2025 daemon.err nrfi[2407]: 3074: [23:10:19.666] ACK
+Sun Oct  5 23:10:20 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 98
+Sun Oct  5 23:10:20 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:21 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 81
+Sun Oct  5 23:10:21 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:21 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 98, "position_state": 1 } } } } }
+Sun Oct  5 23:10:22 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 63
+Sun Oct  5 23:10:22 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:24 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 45
+Sun Oct  5 23:10:24 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:24 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 63, "position_state": 1 } } } } }
+Sun Oct  5 23:10:24 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 27
+Sun Oct  5 23:10:24 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:25 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 20
+Sun Oct  5 23:10:25 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:25 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 27, "position_state": 1 } } } } }
+Sun Oct  5 23:10:27 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 20, "position_state": 0 } } } } }
+Sun Oct  5 23:10:56 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 21
+Sun Oct  5 23:10:56 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:56 2025 daemon.err nrfi[2407]: 1639: REPORT_USER_TARGET: fa495488b181 - 100
+Sun Oct  5 23:10:56 2025 daemon.err nrfi[2407]: 1663: gear target position updated
+Sun Oct  5 23:10:57 2025 daemon.err nrfi[2407]: 999: REPORT_GEAR_BATTERY: fa495488b181 - 97
+Sun Oct  5 23:10:57 2025 daemon.err nrfi[2407]: 1025: gear battery level updated
+Sun Oct  5 23:10:57 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 37
+Sun Oct  5 23:10:57 2025 daemon.err nrfi[2407]: 898: gear current position updated
+Sun Oct  5 23:10:57 2025 daemon.err mqttc[2453]: 2358: msgReported: { "state": { "reported": { "dvc_online": true, "gears": { "fa495488b181": { "id": "fa495488b181", "online": true, "position": 21, "position_state": 2, "power_type": 2, "power_level": 97 } } } } }
+Sun Oct  5 23:10:58 2025 daemon.err nrfi[2407]: 869: REPORT_GEAR_POSITION: fa495488b181 - 55
+Sun Oct  5 23:10:58 2025 daemon.err nrfi[2407]: 898: gear current position updated
